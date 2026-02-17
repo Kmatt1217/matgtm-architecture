@@ -44,3 +44,7 @@ Trend signals can be transformed into 2D representations (e.g., Gramian Angular 
 - `src/matgtm/modules.py`: submodules (optional split) (will be uploaded)
 
 ---
+
+## Cross-domain (BDG2)
+I also adapted MatGTM to the BDG2 dataset for building electricity forecasting and peak-centric interpretability.  
+See: [docs/CROSS_DOMAIN_BDG2.md](docs/CROSS_DOMAIN_BDG2.md)
