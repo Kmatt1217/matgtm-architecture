@@ -17,6 +17,7 @@ The Architecture is a Trasnformer-based model that performs Time-Series Forecast
 
 ## Architecture
 <img src="assets/matgtm architecture.png" width="900" />
+Architecture of the proposed MatGTM model. The encoder (although this component is not a conventional encoder, we refer to it as the “encoder” for convenience to distinguish it from the decoder) performs cross-attention between hierarchical latent queries and CNN-extracted features from GAF-transformed Time-Series Data (Google Trends). The decoder employs a granularity-aware feed-forward network to adaptively control model capacity when generating sales forecasts.
 
 ## Key Ideas (Thesis Summary)
 
