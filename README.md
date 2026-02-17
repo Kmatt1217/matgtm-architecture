@@ -1,8 +1,6 @@
 # MatGTM (Architecture)
 
-This repository provides the **model architecture** of my M.S. thesis work: **MatGTM** from *"Nested Queries, Adaptive Depth: 
-A Matyroshka-Based Architecture for Multimodal 
-Fashion Sales Forecasting"*, a multimodal forecasting model designed to capture meaningful patterns from trend signals and product modalities with efficient inference.
+This repository provides the **model architecture** of my M.S. thesis work: **MatGTM** from *"A Matryoshka-Based Architecture for Multimodal Fashion Sales Forecasting using Adaptive Queries and Decoder"*, a multimodal forecasting model designed to capture meaningful patterns from trend signals and product modalities with efficient inference.
 
 > This repo focuses on **architecture**.  
 > Training/Evaluation pipeline will be added in a future update.
