@@ -41,6 +41,14 @@ MatGTM therefore fixes the representation dimension for stable decoding, and con
 ### (Optional) 4) GAF-based 2D Encoding for Time Series
 Trend signals can be transformed into 2D representations (e.g., Gramian Angular Field) and encoded with a CNN backbone to enrich temporal pattern extraction.
 
+## Limitations
+
+- **GAF preprocessing and generalization.** The model relies on Gramian Angular Field (GAF) transformation, which adds an extra preprocessing step and may not transfer well to time-series with irregular sampling or very different signal characteristics.
+
+- **Fixed-size 2D encoding can lose temporal detail.** Converting time series into fixed-resolution 2D images can reduce temporal resolution and may cause information loss for highly dynamic or sparse trend patterns.
+
+- **Partial opacity of latent-query behavior.** While latent queries improve efficiency and offer interpretability via attention, their internal behavior can remain hard to characterize—especially under different query sparsity levels or across diverse product categories.
+
 ---
 ## Repository Structure
 
@@ -50,5 +58,10 @@ Trend signals can be transformed into 2D representations (e.g., Gramian Angular 
 ---
 
 ## Cross-domain (BDG2)
-I also adapted MatGTM to the BDG2 dataset for building electricity forecasting and peak-centric interpretability.  
+
+Beyond the scope of my thesis (fashion demand forecasting), I hypothesized that MatGTM’s core design—**latent-query cross-attention** with an efficiency-friendly **Matryoshka prefix scheme**—could generalize to other multivariate forecasting problems.  
+To validate this, I adapted MatGTM to **BDG2 (Building Data Genome 2)(https://github.com/buds-lab/building-data-genome-project-2)** for building electricity usage forecasting.
+
+This cross-domain study suggests that MatGTM can also support **event- and anomaly-centric analysis**: once peak-like events are detected in the predicted/observed trajectories, we can trace them back to influential historical windows using **attention scores between latent queries and inputs**, providing practical insights for **root-cause analysis** and factor investigation.
+
 See: [docs/CROSS_DOMAIN_BDG2.md](docs/CROSS_DOMAIN_BDG2.md)
