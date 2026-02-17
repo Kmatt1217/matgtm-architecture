@@ -41,6 +41,6 @@ Trend signals can be transformed into 2D representations (e.g., Gramian Angular 
 ## Repository Structure
 
 - `src/matgtm/matgtm_v6.py`: main model definition
-- `src/matgtm/modules.py`: submodules (optional split)
+- `src/matgtm/modules.py`: submodules (optional split) (will be uploaded)
 
 ---
