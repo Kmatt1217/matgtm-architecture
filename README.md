@@ -15,6 +15,9 @@ The Architecture is a Trasnformer-based model that performs Time-Series Forecast
 - Optional modalities (image / text embeddings / etc..)
 - **Matryoshka-style latent queries (prefix slicing)** that summarize time-series through cross-attention, capture trend patterns efficiently, balance accuracy and efficiency
 
+## Architecture
+<img src="assets/matgtm architecture.png" width="900" />
+
 ## Key Ideas (Thesis Summary)
 
 ### 1) Latent Query Cross-Attention for Trend Summarization
