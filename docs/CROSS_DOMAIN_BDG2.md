@@ -16,13 +16,13 @@ This document summarizes an out-of-domain adaptation of MatGTM to **BDG2 ([Build
 ## Results & Analysis
 
 ### 1) Energy Usage Per Day (Forecast vs. Truth)
-<img src="../assets/bdg2/energy_usage_per_day.png" width="400" />
+<img src="../assets/energy_usage_per_day.png" width="400" />
 
 ### 2) Attention Importance around Peak
-<img src="../assets/bdg2/attention_importance.png" width="400" />
+<img src="../assets/attention_importance.png" width="400" />
 
 ### 3) Factor Analysis (variables aligned with peak-focused window)
-<img src="../assets/bdg2/factor_analysis.png" width="400" />
+<img src="../assets/factor_analysis.png" width="400" />
 
 **Observed patterns**
 - Forecast aligns with daily trend and peak regimes.
