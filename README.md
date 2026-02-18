@@ -68,16 +68,15 @@ python run_train.py --data_folder dataset \
   --wandb_proj "YOUR_PROJECT" \
 ```
 
- trend_len : length of Input Time-Series Dataset \ 
- num_trends : Channel Dim of Input Time_Series Dataset \
- M : Max size of Latent Query Tokens. \
- gaf : True/False for using GAF \
+- `trend_len`: length of input time-series dataset  
+- `num_trends`: channel dim of input time-series dataset  
+- `M`: max size of latent query tokens  
+- `gaf`: True/False for using GAF
 
 ---
 ## Repository Structure
 
 - `src/matgtm/matgtm_v6.py`: main model definition
-- `src/matgtm/modules.py`: submodules (optional split) (will be uploaded)
 
 ---
 
