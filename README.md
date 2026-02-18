@@ -68,16 +68,10 @@ python run_train.py --data_folder dataset \
   --wandb_proj "YOUR_PROJECT" \
 ```
 
- trend_len : length of Input Time-Series Dataset
- 
- num_trends : Channel Dim of Input Time_Series Dataset
-
- M : Max size of Latent Query Tokens.
- 
- gaf : True/False for using GAF
-
-
-
+ trend_len : length of Input Time-Series Dataset \ 
+ num_trends : Channel Dim of Input Time_Series Dataset \
+ M : Max size of Latent Query Tokens. \
+ gaf : True/False for using GAF \
 
 ---
 ## Repository Structure
