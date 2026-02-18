@@ -51,7 +51,7 @@ Trend signals can be transformed into 2D representations (e.g., Gramian Angular 
 
 ## Datset
 
-**VISUELLE** dataset is available to download here[!https://docs.google.com/forms/d/e/1FAIpQLSchN_0VzFD5YEY6MET8V91xyEZLuiiN5jeACP5Mcn-4bYh_lQ/viewform]. Download and extract it inside the dataset folder.
+**VISUELLE** dataset is available to download [here](https://docs.google.com/forms/d/e/1FAIpQLSchN_0VzFD5YEY6MET8V91xyEZLuiiN5jeACP5Mcn-4bYh_lQ/viewform). Download and extract it inside the dataset folder.
 
 ---
 ## Repository Structure
