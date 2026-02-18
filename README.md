@@ -53,6 +53,14 @@ Trend signals can be transformed into 2D representations (e.g., Gramian Angular 
 
 **VISUELLE** dataset is available to download [here](https://docs.google.com/forms/d/e/1FAIpQLSchN_0VzFD5YEY6MET8V91xyEZLuiiN5jeACP5Mcn-4bYh_lQ/viewform). Download and extract it inside the dataset folder.
 
+## Training
+
+Training
+
+python run_train.py --data_folder dataset --use_img 1 --use_text 1 --use_trends 1 --trend_len 52 --num_trends 3 --granularity_scales "1 0.5 0.25" --M 52 --gaf True --wandb_api_key "YOUR_WANDB_API_KEY" \
+  --wandb_entity "YOUR_ENTITY" \
+  --wandb_proj "YOUR_PROJECT" \
+
 ---
 ## Repository Structure
 
