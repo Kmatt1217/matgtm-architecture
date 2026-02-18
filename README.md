@@ -58,10 +58,20 @@ Trend signals can be transformed into 2D representations (e.g., Gramian Angular 
 Training
 
 ```bash
-python run_train.py --data_folder dataset --use_img 1 --use_text 1 --use_trends 1 --trend_len 52 --num_trends 3 --granularity_scales "1 0.5 0.25" --M 52 --gaf True --wandb_api_key "YOUR_WANDB_API_KEY" \
+python run_train.py --data_folder dataset \
+  --trend_len 52 \
+  --num_trends 3 \
+  --M 52 \
+  --gaf True \
+  --wandb_api_key "YOUR_WANDB_API_KEY" \
   --wandb_entity "YOUR_ENTITY" \
   --wandb_proj "YOUR_PROJECT" \
 ```
+
+ trend_len : length of Input Time-Series Dataset
+ num_trends : Channel Dim of Input Time_Series Dataset
+ gaf : True/False for using GAF
+
 
 ---
 ## Repository Structure
