@@ -243,8 +243,7 @@ class GTrendQueryDecoderLayer(nn.Module):
         # Step 2: Cross-Attention with Latent Query Tokens
         if isinstance(latent_query_token, tuple):
             latent_query_token = latent_query_token[0]
-        
-        # latent_query_token = self.latent_query_pos_embed(latent_query_token)
+    
         latent_query_token = self.norm1(latent_query_token)
 
 
